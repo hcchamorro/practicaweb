@@ -1,0 +1,14 @@
+Algoritmo ejercicio4
+	x = 0
+	aux = 0
+	Dimension arrayA[50]
+	x = 1
+	Para x<-1 Hasta 5 Con Paso 1 Hacer
+		A[x]= x
+		Escribir "valor",x;
+	Fin Para
+	Para x<-50 hasta 3 Con Paso -1 Hacer
+		A[x]<-A[x+1]
+	FinPara
+	
+FinAlgoritmo
